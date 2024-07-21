@@ -22,6 +22,7 @@
 # com certeza que precisam delas e não precisam de uma explicação
 # sobre o porquê)."
 # — Tim Peters (CPython Core Developer)
+
 def meu_repr(self):
     return f'{type(self).__name__}({self.__dict__})'
 
